@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Bluedrop",
   "version": "1.0.5",
-  "description": "Bluesky messaging client with dark mode",
+  "description": "A beautiful, dark-mode messaging client for Bluesky. Send DMs, react with emojis, and hide engagement metrics with Zen Mode.",
   "action": {
     "default_popup": "index.html",
     "default_icon": {

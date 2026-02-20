@@ -57,12 +57,12 @@ KEY FEATURES:
 
 PRIVACY AND PERMISSIONS:
 
-Bluedrop connects directly to the Bluesky API (bsky.social) and the official chat proxy. We request only the permissions necessary:
+Bluedrop connects directly to the Bluesky API (bsky.social) and the official chat proxy. Only the permissions necessary are requested:
 - Storage: To save your session locally
-- Notifications: For unread message alerts  
+- Notifications: For unread message alerts
 - Host permissions: To communicate with Bluesky servers
 
-We do not collect, track, or share any data. This extension is open source.
+No data is collected, tracked, or shared. This extension is open source.
 
 SUPPORT:
 Visit https://dr.eamer.dev/bluesky for more tools and documentation.

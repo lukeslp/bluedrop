@@ -4,7 +4,7 @@
 
 ### Option 1: Load Unpacked (Recommended for Testing)
 
-1. Extract `bluedrop-v8.1.5-chrome.zip` to a folder
+1. Extract `bluedrop-v1.0.5-chrome.zip` to a folder
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" (toggle in top right)
 4. **If you have an older version loaded:**
@@ -18,14 +18,14 @@
 
 1. Go to `chrome://extensions/`
 2. Enable "Developer mode"
-3. Drag `bluedrop-v8.1.5-chrome.zip` onto the extensions page
+3. Drag `bluedrop-v1.0.5-chrome.zip` onto the extensions page
 4. Chrome will extract and install it
 
 ## Firefox Installation
 
 1. Open Firefox and go to `about:debugging#/runtime/this-firefox`
 2. Click "Load Temporary Add-on"
-3. Select the `bluedrop-v8.1.5-firefox.xpi` file
+3. Select the `bluedrop-v1.0.5-firefox.xpi` file
 4. The extension will be loaded temporarily
 
 ## Troubleshooting
@@ -60,6 +60,6 @@ The extension should contain:
 - ✅ `background.js`
 - ✅ `icon16.png`, `icon48.png`, `icon128.png`
 
-## Version: 8.1.5
-- Fixed: Popup dimensions (380px × 550px)
-- Fixed: Relative asset paths for proper CSS/JS loading
+## Version: 1.0.5
+- Popup dimensions: 380px × 550px
+- Proper relative asset paths for CSS/JS loading
