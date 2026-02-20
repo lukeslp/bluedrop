@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bluedrop</title>
+  <style>
+    /* Base reset */
+    html,
+    body,
+    #root {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    #root {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Default: Extension popup size */
+    body.popup-mode {
+      width: 380px !important;
+      height: 550px !important;
+      overflow: hidden !important;
+    }
+
+    /* Popout/standalone mode: Full responsive */
+    body.popout-mode {
+      width: 100vw !important;
+      height: 100vh !important;
+      min-height: 100vh !important;
+    }
+  </style>
+  <script>
+    // Detect mode - popup vs popout (wait for DOM)
+    document.addEventListener('DOMContentLoaded', function () {
+      const urlParams = new URLSearchParams(window.location.search);
+      const isPopoutParam = urlParams.get('popout') === 'true';
+      const isExtensionPopup = window.innerWidth <= 400 && window.innerHeight <= 600 && !isPopoutParam;
+
+      // Remove default popup class if we are strictly in popout mode
+      if (isPopoutParam || !isExtensionPopup) {
+        document.body.classList.remove('popup-mode');
+        document.body.classList.add('popout-mode');
+      }
+    });
+  </script>
+</head>
+
+<body class="popup-mode">
+  <div id="root"></div>
+  <script type="module" src="./main.jsx"></script>
+</body>
+
+</html>
