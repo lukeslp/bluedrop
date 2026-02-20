@@ -45,6 +45,16 @@ Permissions requested:
 
 ---
 
+## Bluesky Ecosystem
+
+More Bluesky tools by Luke Steuber:
+
+- [skymarshal](https://github.com/lukeslp/skymarshal) — Python CLI for post and comment management
+- [skymarshal-js](https://github.com/lukeslp/skymarshal-js) — TypeScript/JS toolkit for AT Protocol
+- [bsky-firehose-anonymized-dec-2025](https://github.com/lukeslp/bsky-firehose-anonymized-dec-2025) — dataset: 101K anonymized Bluesky posts
+
+---
+
 ## License
 
 MIT © [Luke Steuber](https://lukesteuber.com)
