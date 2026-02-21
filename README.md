@@ -5,7 +5,7 @@
 
 A dark-mode messaging extension for Bluesky. Send DMs, react with emojis, and hide engagement metrics with Zen Mode — all from your browser toolbar.
 
-![Bluedrop screenshot](https://raw.githubusercontent.com/lukeslp/bluedrop/main/social-card.png)
+![Bluedrop screenshot](https://raw.githubusercontent.com/lukeslp/bluedrop/master/social-card.png)
 
 ---
 
